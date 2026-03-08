@@ -189,7 +189,7 @@ export default function App() {
             }));
             setAllModels(models);
 
-            if (!selectedTextModel) setSelectedTextModel(models.find(m => m.id === 'gemini-1.5-pro')?.id || models.find(m => m.id.includes('flash'))?.id || '');
+            if (!selectedTextModel) setSelectedTextModel(models.find(m => m.id === 'gemini-2.5-pro')?.id || models.find(m => m.id.includes('flash'))?.id || '');
             if (!selectedImageModel) setSelectedImageModel(models.find(m => m.id.includes('imagen'))?.id || '');
             if (!selectedVisionModel) setSelectedVisionModel(models.find(m => m.id.includes('vision') || m.methods.includes('generateContent'))?.id || '');
         } catch (err) {
@@ -429,7 +429,7 @@ export default function App() {
                         <div className="flex items-center gap-3"><Sparkles className="w-5 h-5 text-indigo-400" /><h4 className="text-sm font-bold text-white uppercase tracking-widest">Director's Note: Detail Synthesis</h4></div>
                         <p className="text-[13px] text-slate-400 leading-relaxed">
                             For ultra-high quality results with dense objects like globes, teapots, and scrolls, we recommend the <strong>Golden Combo</strong> observed in production:
-                            Use <strong>gemini-1.5-pro</strong> as the Refiner, and vision models for the final Perspective Synthesis.
+                            Use <strong>gemini-2.5-pro</strong> as the Refiner, and vision models for the final Perspective Synthesis.
                             This configuration maximizes perspective accuracy and lighting fidelity on complex desk surfaces.
                         </p>
                     </div>

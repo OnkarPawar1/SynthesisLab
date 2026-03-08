@@ -76,7 +76,7 @@ If you'd like to run SynthesisLab locally and modify the code:
 ## 🌟 Director's Note: Detail Synthesis
 
 For ultra-high quality results with dense objects like globes, teapots, and scrolls, we recommend the **Golden Combo** observed in production:
-Use **gemini-1.5-pro** (or similar capable model) as the Refiner, and robust vision models for the final Perspective Synthesis. This configuration maximizes perspective accuracy and lighting fidelity on complex desk surfaces.
+Use **gemini-2.5-pro** (or similar capable model) as the Refiner, and robust vision models for the final Perspective Synthesis. This configuration maximizes perspective accuracy and lighting fidelity on complex desk surfaces.
 
 ---
 *Created by Onkar Pawar.*
